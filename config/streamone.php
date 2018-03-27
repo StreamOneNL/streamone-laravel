@@ -43,7 +43,7 @@ return [
 		'id' => env('STREAMONE_APP_ID'),
 
 		'psk' => env('STREAMONE_APP_PSK')
-	]
+	],
 
 	/**
 	 * default_account_id (optional): this can be set to the ID of an account and if set, this will be the account to use by default for all API actions.
