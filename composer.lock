@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "467e48a73fadf64a041c6e193e9b5dcb",
+    "packages": [
+        {
+            "name": "streamone/php-sdk-v3",
+            "version": "3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StreamOneNL/PHP-SDK-v3.git",
+                "reference": "b6373db31ea742d422818e9e3905ca12b177b01b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StreamOneNL/PHP-SDK-v3/zipball/b6373db31ea742d422818e9e3905ca12b177b01b",
+                "reference": "b6373db31ea742d422818e9e3905ca12b177b01b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StreamOne\\API\\v3\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "StreamOne",
+                    "email": "info@streamone.nl",
+                    "homepage": "http://streamone.nl"
+                }
+            ],
+            "description": "StreamOne PHP SDK for API version 3",
+            "homepage": "http://streamone.nl",
+            "keywords": [
+                "streamone"
+            ],
+            "time": "2017-02-02T15:14:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

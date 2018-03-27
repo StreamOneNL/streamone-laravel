@@ -1,0 +1,25 @@
+{
+    "name": "streamone/streamone-laravel",
+    "description": "Laravel & Lumen package for StreamOne PHP SDK.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giampaolo Falqui",
+            "email": "giampaolo@streamone.tv"
+        }
+    ],
+    "require": {
+        "streamone/php-sdk-v3": "~3.2"
+    },
+    "autoload": {
+        "StreamOne\\Lumen\\": "src/"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StreamOne\\Lumen\\StreamOneLumenServiceProvider"
+            ]
+        }
+    }
+}
