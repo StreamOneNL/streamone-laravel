@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "StreamOne\\Lumen\\": "src/"
+            "StreamOne\\Laravel\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "StreamOne\\Lumen\\StreamOneLumenServiceProvider"
+                "StreamOne\\Laravel\\StreamOneLumenServiceProvider"
             ]
         }
     }
