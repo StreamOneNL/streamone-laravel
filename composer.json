@@ -13,7 +13,9 @@
         "streamone/php-sdk-v3": "~3.2"
     },
     "autoload": {
-        "StreamOne\\Lumen\\": "src/"
+        "psr-4": {
+            "StreamOne\\Lumen\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
